@@ -18,7 +18,7 @@ import com.restapi.common.RedisPool;
  *
  */
 
-@ComponentScan("com.rest.*")
+@ComponentScan("com.restapi.*")
 @EnableAutoConfiguration()
 @ImportResource({"classpath:spring-context.xml"})
 @SpringBootApplication
